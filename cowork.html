@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Storymong Main</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/header.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+	<link rel="stylesheet" type="text/css" href="./css/cowork.css">
+
+</head>
+
+<body>
+	<!-- Navbar -->
+	<header>
+		<div class="header_container">
+			<div class="img_logo"><a href="/"><img src="./img/main_logo.png" /></a></div>
+			<nav class="nav_container">
+				<div class="nav_items">
+					<ul>
+						<li><a href="./web/sub">영화 시나리오</a></li>
+						<li><a href="./web/sub">드라마 대본</a></li>
+						<li><a href="./web/sub">웹소설</a></li>
+						<li><a href="./web/sub">웹툰</a></li>
+						<li><a href="/">스토리허브</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="search_img"><a href="/"><img src="./img/search_icon.png" /></a></div>
+
+			<button type="button" id="btn-join" data-toggle="modal" data-target="#joinModal">회원가입</button>
+			<button type="button" id="btn-login" data-toggle="modal" data-target="#loginModal">로그인</button>
+
+		</div>
+	</header>
+	<!-- /.navbar -->
+	<!-- Content -->
+	<main>
+		<div class="title" style="top: 126px; left: 424px;">작가님을 기다리고 있는 스토리 📚</div>
+		<div class="ask" style="top: 140px; left: 858px;"><img src="img/help.svg"></div>
+
+		<div class="menu" id="fund" style="top: 152px; left: 1266px;">높은 펀딩순</div>
+		<div class="menu" id="genre" style="top: 152px; left: 1403px;">전체 장르</div>
+
+		<div class="angle" style="left: 1361px;"><img src="img/underangle.svg"></div>
+		<div class="angle" style="left: 1483px;"><img src="img/underangle.svg"></div>
+
+		<div class="bar" id="upbar" style="top: 186px; left: 424px;"></div>
+		<div class="bar" id="underbar" style="top: 2683px; left: 424px;"></div>
+
+		<div class="block block1"></div>
+		<div class="greyblock" style="top: 242px; left: 452px;"></div>
+		<div class="category" style="top: 254px; left: 638px;">카테고리 - 장르</div>
+		<div class="content" style="top: 274px; left: 633px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 313px; left: 638px;">작가 : 이름</div>
+		<div class="star_active" style="top: 349px; left: 638px;">
+			<img src="img/star_active.svg" style="left: 638px;">
+			<img src="img/star_active.svg" style="left: 656px;">
+			<img src="img/star_active.svg" style="left: 674px;">
+			<img src="img/star_active.svg" style="left: 690px;">
+		</div>
+		<div class="star_none" style="top: 349px; left: 720px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 349px; left: 742px;">4.0</div>
+
+		<div class="img img1" style="top: 419px; left: 638px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 419px; left: 717px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 419px; left: 784px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 404px; left: 662px;">2356</p>
+		<p class="comment like_comment" style="top: 404px; left: 746px;">217</p>
+		<p class="comment speech_comment" style="top: 404px; left: 813px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 478px; left: 452px;"></div>
+		<div class="mid_bar right_bar" style="top: 478px; left: 758px;"></div>
+		<div class="recommend" style="top: 466px; left: 627px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 506px; left: 497px;">4,230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 548px; left: 486px;">42,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 506px; left: 777px;">730 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 548px; left: 742px;">73,700</div>
+
+		<div class="att_com" style="top: 512px; left: 594px;">달성</div>
+		<div class="att_com" style="top: 554px; left: 594px;">추천</div>
+		<div class="att_com" style="top: 512px; left: 853px;">달성</div>
+		<div class="att_com" style="top: 554px; left: 853px;">후원</div>
+
+		<div class="initial img1" style="top: 558px; left: 569px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 558px; left: 825px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 607px; left: 452px;"></div>
+		<div class="purple box2" style="top: 607px; left: 697px;"></div>
+
+		<div class="act act1" style="top: 619px; left: 535px;">작품보기</div>
+		<div class="act act2" style="top: 619px; left: 780px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block2" style="top: 214px; left: 970px;"></div>
+		<div class="greyblock" style="top: 242px; left: 998px;"></div>
+		<div class="category" style="top: 254px; left: 1184px;">카테고리 - 장르</div>
+		<div class="content" style="top: 274px; left: 1184px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 313px; left: 1184px;">작가 : 이름</div>
+		<div class="star_active" style="top: 349px; left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1202px;">
+			<img src="img/star_active.svg" style="left: 1220px;">
+			<img src="img/star_active.svg" style="left: 1238px;">
+		</div>
+		<div class="star_none" style="top: 349px; left: 1264px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 349px; left: 1286px;">4.0</div>
+
+		<div class="img img1" style="top: 419px; left: 1184px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 419px; left: 1263px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 419px; left: 1330px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 404px; left: 1208px;">2356</p>
+		<p class="comment like_comment" style="top: 404px; left: 1287px;">217</p>
+		<p class="comment speech_comment" style="top: 404px; left: 1354px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 478px; left: 998px;"></div>
+		<div class="mid_bar right_bar" style="top: 478px; left: 1304px;"></div>
+		<div class="recommend" style="top: 466px; left: 1173px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 506px; left: 1064px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 548px; left: 1046px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 506px; left: 1323px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 548px; left: 1288px;">13,700</div>
+
+		<div class="att_com" style="top: 512px; left: 1140px;">달성</div>
+		<div class="att_com" style="top: 554px; left: 1140px;">추천</div>
+		<div class="att_com" style="top: 512px; left: 1399px;">달성</div>
+		<div class="att_com" style="top: 554px; left: 1399px;">후원</div>
+
+		<div class="initial img1" style="top: 558px; left: 1115px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 558px; left: 1371px;"><img src="img/Dimg.svg"
+				style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 607px; left: 998px;"></div>
+		<div class="purple box2" style="top: 607px; left: 1243px;"></div>
+
+		<div class="act act1" style="top: 619px; left: 1081px;">작품보기</div>
+		<div class="act act2" style="top: 619px; left: 1326px; color: #FFFFFF;">협업하기</div>
+
+
+		<div class="block block3" style="top: 707px; left: 424px;"></div>
+		<div class="greyblock" style="top: 735px; left: 452px;"></div>
+		<div class="category" style="top: 747px; left: 638px;">카테고리 - 장르</div>
+		<div class="content" style="top: 767px; left: 633px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 806px; left: 638px;">작가 : 이름</div>
+		<div class="star_active" style="top: 832px; left: 638px;">
+			<img src="img/star_active.svg" style="left: 638px;">
+			<img src="img/star_active.svg" style="left: 656px;">
+			<img src="img/star_active.svg" style="left: 674px;">
+			<img src="img/star_active.svg" style="left: 690px;">
+		</div>
+		<div class="star_none" style="top: 832px; left: 720px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 832px; left: 742px;">4.0</div>
+
+		<div class="img img1" style="top: 912px; left: 638px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 912px; left: 717px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 912px; left: 784px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 897px; left: 662px;">2356</p>
+		<p class="comment like_comment" style="top: 897px; left: 746px;">217</p>
+		<p class="comment speech_comment" style="top: 897px; left: 813px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 971px; left: 452px;"></div>
+		<div class="mid_bar right_bar" style="top: 971px; left: 758px;"></div>
+		<div class="recommend" style="top: 959px; left: 627px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 999px; left: 518px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 1041px; left: 500px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 999px; left: 777px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 1041px; left: 742px;">13,700</div>
+
+		<div class="att_com" style="top: 1005px; left: 594px;">달성</div>
+		<div class="att_com" style="top: 1047px; left: 594px;">추천</div>
+		<div class="att_com" style="top: 1005px; left: 853px;">달성</div>
+		<div class="att_com" style="top: 1047px; left: 853px;">후원</div>
+
+		<div class="initial img1" style="top: 1051px; left: 569px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 1051px; left: 825px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 1100px; left: 452px;"></div>
+		<div class="purple box2" style="top: 1100px; left: 697px;"></div>
+
+		<div class="act act1" style="top: 1112px; left: 535px;">작품보기</div>
+		<div class="act act2" style="top: 1112px; left: 780px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block4" style="top: 707px; left: 970px;"></div>
+		<div class="greyblock" style="top: 735px; left: 998px;"></div>
+		<div class="category" style="top: 747px; left: 1184px;">카테고리 - 장르</div>
+		<div class="content" style="top: 767px; left: 1184px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 806px; left: 1184px;">작가 : 이름</div>
+		<div class="star_active" style="top: 842px; left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1202px;">
+			<img src="img/star_active.svg" style="left: 1220px;">
+			<img src="img/star_active.svg" style="left: 1238px;">
+		</div>
+		<div class="star_none" style="top: 842px; left: 1264px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 842px; left: 1286px;">4.0</div>
+
+		<div class="img img1" style="top: 912px; left: 1184px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 912px; left: 1263px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 912px; left: 1330px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 897px; left: 1208px;">2356</p>
+		<p class="comment like_comment" style="top: 897px; left: 1287px;">217</p>
+		<p class="comment speech_comment" style="top: 897px; left: 1354px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 971px; left: 998px;"></div>
+		<div class="mid_bar right_bar" style="top: 971px; left: 1304px;"></div>
+		<div class="recommend" style="top: 959px; left: 1173px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 999px; left: 1064px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 1041px; left: 1046px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 999px; left: 1323px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 1041px; left: 1288px;">13,700</div>
+
+		<div class="att_com" style="top: 1005px; left: 1140px;">달성</div>
+		<div class="att_com" style="top: 1047px; left: 1140px;">추천</div>
+		<div class="att_com" style="top: 1005px; left: 1399px;">달성</div>
+		<div class="att_com" style="top: 1047px; left: 1399px;">후원</div>
+
+		<div class="initial img1" style="top: 1050px; left: 1115px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 1050px; left: 1371px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 1100px; left: 998px;"></div>
+		<div class="purple box2" style="top: 1100px; left: 1243px;"></div>
+
+		<div class="act act1" style="top: 1112px; left: 1081px;">작품보기</div>
+		<div class="act act2" style="top: 1112px; left: 1326px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block5" style="top: 1200px; left: 424px;"></div>
+		<div class="greyblock" style="top: 1228px; left: 452px;"></div>
+		<div class="category" style="top: 1240px; left: 638px;">카테고리 - 장르</div>
+		<div class="content" style="top: 1260px; left: 633px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 1299px; left: 638px;">작가 : 이름</div>
+		<div class="star_active" style="top: 1335px; left: 638px;">
+			<img src="img/star_active.svg" style="left: 638px;">
+			<img src="img/star_active.svg" style="left: 656px;">
+			<img src="img/star_active.svg" style="left: 674px;">
+			<img src="img/star_active.svg" style="left: 690px;">
+		</div>
+		<div class="star_none" style="top: 1335px; left: 720px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 1335px; left: 742px;">4.0</div>
+
+		<div class="img img1" style="top: 1405px; left: 638px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 1405px; left: 717px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 1405px; left: 784px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 1390px; left: 662px;">2356</p>
+		<p class="comment like_comment" style="top: 1390px; left: 746px;">217</p>
+		<p class="comment speech_comment" style="top: 1390px; left: 813px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 1464px; left: 452px;"></div>
+		<div class="mid_bar right_bar" style="top: 1464px; left: 758px;"></div>
+		<div class="recommend" style="top: 1452px; left: 627px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 1492px; left: 497px;">4,230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 1534px; left: 486px;">42,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 1492px; left: 777px;">730 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 1534px; left: 742px;">73,700</div>
+
+		<div class="att_com" style="top: 1498px; left: 594px;">달성</div>
+		<div class="att_com" style="top: 1540px; left: 594px;">추천</div>
+		<div class="att_com" style="top: 1498px; left: 853px;">달성</div>
+		<div class="att_com" style="top: 1540px; left: 853px;">후원</div>
+
+		<div class="initial img1" style="top: 1544px; left: 569px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 1544px; left: 825px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 1593px; left: 452px;"></div>
+		<div class="purple box2" style="top: 1593px; left: 697px;"></div>
+
+		<div class="act act1" style="top: 1605px; left: 535px;">작품보기</div>
+		<div class="act act2" style="top: 1605px; left: 780px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block6" style="top: 1200px; left: 970px;"></div>
+		<div class="greyblock" style="top: 1228px; left: 998px;"></div>
+		<div class="category" style="top: 1240px; left: 1184px;">카테고리 - 장르</div>
+		<div class="content" style="top: 1260px; left: 1184px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 1299px; left: 1184px;">작가 : 이름</div>
+		<div class="star_active" style="top: 1335px; left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1202px;">
+			<img src="img/star_active.svg" style="left: 1220px;">
+			<img src="img/star_active.svg" style="left: 1238px;">
+		</div>
+		<div class="star_none" style="top: 1335px; left: 1264px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 1335px; left: 1286px;">4.0</div>
+
+		<div class="img img1" style="top: 1405px; left: 1184px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 1405px; left: 1263px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 1405px; left: 1330px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 1390px; left: 1208px;">2356</p>
+		<p class="comment like_comment" style="top: 1390px; left: 1287px;">217</p>
+		<p class="comment speech_comment" style="top: 1390px; left: 1354px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 1464px; left: 998px;"></div>
+		<div class="mid_bar right_bar" style="top: 1464px; left: 1304px;"></div>
+		<div class="recommend" style="top: 1452px; left: 1173px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 1492px; left: 1064px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 1534px; left: 1046px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 1492px; left: 1323px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 1534px; left: 1288px;">13,700</div>
+
+		<div class="att_com" style="top: 1498px; left: 1140px;">달성</div>
+		<div class="att_com" style="top: 1540px; left: 1140px;">추천</div>
+		<div class="att_com" style="top: 1498px; left: 1399px;">달성</div>
+		<div class="att_com" style="top: 1540px; left: 1399px;">후원</div>
+
+		<div class="initial img1" style="top: 1544px; left: 1115px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 1544px; left: 1371px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 1593px; left: 998px;"></div>
+		<div class="purple box2" style="top: 1593px; left: 1243px;"></div>
+
+		<div class="act act1" style="top: 1605px; left: 1081px;">작품보기</div>
+		<div class="act act2" style="top: 1605px; left: 1326px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block7" style="top: 1693px; left: 424px;"></div>
+		<div class="greyblock" style="top: 1721px; left: 452px;"></div>
+		<div class="category" style="top: 1733px; left: 638px;">카테고리 - 장르</div>
+		<div class="content" style="top: 1753px; left: 633px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 1792px; left: 638px;">작가 : 이름</div>
+		<div class="star_active" style="top: 1828px; left: 638px;">
+			<img src="img/star_active.svg" style="left: 638px;">
+			<img src="img/star_active.svg" style="left: 656px;">
+			<img src="img/star_active.svg" style="left: 674px;">
+			<img src="img/star_active.svg" style="left: 690px;">
+		</div>
+		<div class="star_none" style="top: 1828px; left: 720px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 1828px; left: 742px;">4.0</div>
+
+		<div class="img img1" style="top: 1898px; left: 638px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 1898px; left: 717px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 1898px; left: 784px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 1883px; left: 662px;">2356</p>
+		<p class="comment like_comment" style="top: 1883px; left: 746px;">217</p>
+		<p class="comment speech_comment" style="top: 1883px; left: 813px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 1957px; left: 452px;"></div>
+		<div class="mid_bar right_bar" style="top: 1957px; left: 758px;"></div>
+		<div class="recommend" style="top: 1945px; left: 627px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 1985px; left: 518px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 2027px; left: 500px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 1985px; left: 777px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 2027px; left: 742px;">13,700</div>
+
+		<div class="att_com" style="top: 1991px; left: 594px;">달성</div>
+		<div class="att_com" style="top: 2033px; left: 594px;">추천</div>
+		<div class="att_com" style="top: 1991px; left: 853px;">달성</div>
+		<div class="att_com" style="top: 2033px; left: 853px;">후원</div>
+
+		<div class="initial img1" style="top: 2037px; left: 569px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 2036px; left: 825px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 2086px; left: 452px;"></div>
+		<div class="purple box2" style="top: 2086px; left: 697px;"></div>
+
+		<div class="act act1" style="top: 2098px; left: 535px;">작품보기</div>
+		<div class="act act2" style="top: 2098px; left: 780px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block8" style="top: 1693px; left: 970px;"></div>
+		<div class="greyblock" style="top: 1721px; left: 998px;"></div>
+		<div class="category" style="top: 1733px; left: 1184px;">카테고리 - 장르</div>
+		<div class="content" style="top: 1753px; left: 1184px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 1792px; left: 1184px;">작가 : 이름</div>
+		<div class="star_active" style="top: 1828px; left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1202px;">
+			<img src="img/star_active.svg" style="left: 1220px;">
+			<img src="img/star_active.svg" style="left: 1238px;">
+		</div>
+		<div class="star_none" style="top: 1828px; left: 1264px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 1828px; left: 1286px;">4.0</div>
+
+		<div class="img img1" style="top: 1898px; left: 1184px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 1898px; left: 1263px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 1898px; left: 1330px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 1883px; left: 1208px;">2356</p>
+		<p class="comment like_comment" style="top: 1883px; left: 1287px;">217</p>
+		<p class="comment speech_comment" style="top: 1883px; left: 1354px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 1957px; left: 998px;"></div>
+		<div class="mid_bar right_bar" style="top: 1957px; left: 1304px;"></div>
+		<div class="recommend" style="top: 1945px; left: 1173px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 1985px; left: 1064px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 2027px; left: 1046px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 1985px; left: 1323px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 2027px; left: 1288px;">13,700</div>
+
+		<div class="att_com" style="top: 1991px; left: 1140px;">달성</div>
+		<div class="att_com" style="top: 2033px; left: 1140px;">추천</div>
+		<div class="att_com" style="top: 1991px; left: 1399px;">달성</div>
+		<div class="att_com" style="top: 2033px; left: 1399px;">후원</div>
+
+		<div class="initial img1" style="top: 2037px; left: 1115px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 2037px; left: 1371px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 2086px; left: 998px;"></div>
+		<div class="purple box2" style="top: 2086px; left: 1243px;"></div>
+
+		<div class="act act1" style="top: 2098px; left: 1081px;">작품보기</div>
+		<div class="act act2" style="top: 2098px; left: 1326px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block9" style="top: 2186px; left: 424px;"></div>
+		<div class="greyblock" style="top: 2214px; left: 452px;"></div>
+		<div class="category" style="top: 2226px; left: 638px;">카테고리 - 장르</div>
+		<div class="content" style="top: 2246px; left: 633px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 2285px; left: 638px;">작가 : 이름</div>
+		<div class="star_active" style="top: 2321px; left: 638px;">
+			<img src="img/star_active.svg" style="left: 638px;">
+			<img src="img/star_active.svg" style="left: 656px;">
+			<img src="img/star_active.svg" style="left: 674px;">
+			<img src="img/star_active.svg" style="left: 690px;">
+		</div>
+		<div class="star_none" style="top: 2321px; left: 720px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 2321px; left: 742px;">4.0</div>
+
+		<div class="img img1" style="top: 2391px; left: 638px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 2391px; left: 717px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 2391px; left: 784px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 2381px; left: 662px;">2356</p>
+		<p class="comment like_comment" style="top: 2381px; left: 746px;">217</p>
+		<p class="comment speech_comment" style="top: 2381px; left: 813px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 2450px; left: 452px;"></div>
+		<div class="mid_bar right_bar" style="top: 2450px; left: 758px;"></div>
+		<div class="recommend" style="top: 2438px; left: 627px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 2478px; left: 518px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 2520px; left: 500px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 2478px; left: 777px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 2520px; left: 742px;">13,700</div>
+
+		<div class="att_com" style="top: 2484px; left: 594px;">달성</div>
+		<div class="att_com" style="top: 2526px; left: 594px;">추천</div>
+		<div class="att_com" style="top: 2526px; left: 853px;">달성</div>
+		<div class="att_com" style="top: 1047px; left: 853px;">후원</div>
+
+		<div class="initial img1" style="top: 2530px; left: 569px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 2530px; left: 825px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 2579px; left: 452px;"></div>
+		<div class="purple box2" style="top: 2579px; left: 697px;"></div>
+
+		<div class="act act1" style="top: 2591px; left: 535px;">작품보기</div>
+		<div class="act act2" style="top: 2591px; left: 780px; color: #FFFFFF;">협업하기</div>
+
+		<div class="block block10" style="top: 2186px; left: 970px;"></div>
+		<div class="greyblock" style="top: 2214px; left: 998px;"></div>
+		<div class="category" style="top: 2226px; left: 1184px;">카테고리 - 장르</div>
+		<div class="content" style="top: 2246px; left: 1184px;">콘텐츠 제목란</div>
+		<div class="author" style="top: 2285px; left: 1184px;">작가 : 이름</div>
+		<div class="star_active" style="top: 2321px; left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1184px;">
+			<img src="img/star_active.svg" style="left: 1202px;">
+			<img src="img/star_active.svg" style="left: 1220px;">
+			<img src="img/star_active.svg" style="left: 1238px;">
+		</div>
+		<div class="star_none" style="top: 2321px; left: 1264px;"><img src="img/star_none.svg"></div>
+		<div class="grade" style="top: 2321px; left: 1286px;">4.0</div>
+
+		<div class="img img1" style="top: 2391px; left: 1184px;"><img src="img/bookimg.svg"></div>
+		<div class="img img2" style="top: 2391px; left: 1263px;"><img src="img/like_active.svg"></div>
+		<div class="img img3" style="top: 2391px; left: 1330px;"><img src="img/commentimg.svg"></div>
+
+		<p class="comment book_comment" style="top: 2376px; left: 1208px;">2356</p>
+		<p class="comment like_comment" style="top: 2376px; left: 1287px;">217</p>
+		<p class="comment speech_comment" style="top: 2376px; left: 1354px;">28</p>
+
+		<div class="mid_bar left_bar" style="top: 2450px; left: 998px;"></div>
+		<div class="mid_bar right_bar" style="top: 2450px; left: 1304px;"></div>
+		<div class="recommend" style="top: 2438px; left: 1173px;">웹툰화 추천 지수</div>
+
+		<div class="attainment" style="color: #FD810D; top: 2478px; left: 1064px;">230 %</div>
+		<div class="attainment" style="color: #FD810D; top: 2520px; left: 1046px;">2,325</div>
+		<div class="attainment" style="color: #7F17E6; top: 2478px; left: 1323px;">130 %</div>
+		<div class="attainment" style="color: #7F17E6; top: 2520px; left: 1288px;">13,700</div>
+
+		<div class="att_com" style="top: 2484px; left: 1140px;">달성</div>
+		<div class="att_com" style="top: 2526px; left: 1140px;">추천</div>
+		<div class="att_com" style="top: 2484px; left: 1399px;">달성</div>
+		<div class="att_com" style="top: 2526px; left: 1399px;">후원</div>
+
+		<div class="initial img1" style="top: 2530px; left: 1115px;"><img src="img/like.svg"></div>
+		<div class="initial img2" style="top: 2530px; left: 1371px;"><img src="img/Dimg.svg" style="height: 20px; width: 20px;"></div>
+
+		<div class="purple box1" style="top: 2579px; left: 998px;"></div>
+		<div class="purple box2" style="top: 2579px; left: 1243px;"></div>
+
+		<div class="act act1" style="top: 2591px; left: 1081px;">작품보기</div>
+		<div class="act act2" style="top: 2591px; left: 1326px; color: #FFFFFF;">협업하기</div>
+
+		<div class="page" id="one">1</div>
+		<div class="page" id="two">2</div>
+		<div class="page" id="three">3</div>
+		<div class="page" id="four">4</div>
+		<div class="page" id="five">5</div>
+
+		<div class="circle" id="lleft"></div>
+		<div class="circle" id="left"></div>
+		<div class="circle" id="right"></div>
+		<div class="circle" id="rright"></div>
+
+		<a class="arrow next1" style="left: 814px;"></a>
+		<a class="arrow next2" style="left: 821px;"></a>
+		<a class="arrow next3" style="left: 858px;"></a>
+		<a class="arrow next4" style="left: 1052px;"></a>
+		<a class="arrow next5" style="left: 1091px;"></a>
+		<a class="arrow next6" style="left: 1098px;"></a>
+	</main>
+	<!-- Footer -->
+	<footer>
+		<div id="footer_logo">
+			<img src="./img/footer_logo.png" />
+		</div>
+	</footer>
+</body>
+
+</html>
