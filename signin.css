@@ -1,0 +1,31 @@
+#signin {
+    top: 0px;
+    left: 0px;
+    width: 760px;
+    height: 860px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 60px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+}
+#signin p {
+    top: 40px;
+    left: 60px;
+    width: 96px;
+    height: 37px;
+    text-align: left;
+    font: normal, normal, bold, 26px/37px, Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+#underbar {
+    top: 97px;
+    left: 60px;
+    width: 640px;
+    height: 2px;
+    border: 2px solid var(--unnamed-color-ececec);
+    border: 2px solid #ECECEC;
+    opacity: 1;
+}
