@@ -1,0 +1,104 @@
+main {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2004px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.event {
+    position: absolute;
+    top: 118px;
+    width: 180px;
+    height: 35px;
+    color: var(--메인-컬러);
+    text-align: left;
+    font: normal normal bold 24px/35px Noto Sans KR;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.divide {
+    position: absolute;
+    top: 127px;
+    left: 624px;
+    width: 0px;
+    height: 20px;
+    border: 2px solid #ACACAC;
+    opacity: 1;
+}
+.bar {
+    position: absolute;
+    top: 165px;
+    left: 424px;
+    width: 1072px;
+    height: 0px;
+    border: 2px solid #AEAEAE;
+    opacity: 1;
+}
+.layer {
+    position: absolute;
+    width: 514px;
+    height: 263px;
+    transform: matrix(1);
+    background: #C4C4C4 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+.page {
+    position: absolute;
+    top: 1766px;
+    left: 897px;
+    width: 9px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans CJK KR;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+#one {
+    font: normal normal bold 16px/24px Noto Sans CJK KR;
+}
+.circle {
+    position: absolute;
+    top: 1764px;
+    left: 805px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    opacity: 1;
+}
+.arrow {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    text-decoration: none;
+    color: transparent;
+    top: 1774px;
+}
+.arrow.next1 {
+    transform: rotate(-45deg);
+}
+.arrow.next2 {
+    transform: rotate(-45deg);
+}
+.arrow.next3 {
+    transform: rotate(-45deg);
+}
+.arrow.next4 {
+    transform: rotate(135deg);
+}
+.arrow.next5 {
+    transform: rotate(135deg);
+}
+.arrow.next6 {
+    transform: rotate(135deg);
+}
