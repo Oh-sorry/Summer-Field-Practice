@@ -1,0 +1,230 @@
+main {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2313px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 타이틀 & 우상단 배너 */
+.title {
+    position: absolute;
+    width: 442px;
+    height: 40px;
+    text-align: left;
+    font: normal normal bold 28px/40px Noto Sans KR;
+    letter-spacing: -0.84px;
+    color: #191919;
+    opacity: 1;
+}
+/* 도움말 */
+.ask {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/help.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 우상단 배너 */
+.menu {
+    width: 97px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    position: absolute;
+}
+/* 우상단 배너 화살표 */
+.angle {
+    position: absolute;
+    top: 152px;
+    width: 12px;
+    height: 6px;
+    background: transparent url('img/underangle.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 위-아래 구분 선 */
+.bar {
+    position: absolute;
+    width: 1072px;
+    height: 0px;
+    border: 2px solid #AEAEAE;
+    opacity: 1;
+}
+/* 칸 */
+.block {
+    position: absolute;
+    width: 344px;
+    height: 370px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-b1b1b1);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #B1B1B1;
+    border-radius: 20px;
+    opacity: 1;
+}
+/* 작품 메인 이미지 */
+.greyblock {
+    position: absolute;
+    width: 138px;
+    height: 193px;
+    background: #9C9C9C 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+/* 컨텐츠 제목란 */
+.content {
+    position: absolute;
+    width: 112px;
+    height: 24px;
+    text-align: left;
+    font: normal normal bold 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 개인 프로필 원 */
+.pcircle {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border: 2px solid var(--메인-컬러);
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 스토리 작가명 */
+.story_author {
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: -0.32px;
+    color: #191919;
+    opacity: 1;
+}
+/* 프로필 이미지 */
+.profile {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background: transparent url('img/기본 프로필.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 웹툰 작가명 */
+.toon_author {
+    position: absolute;
+    width: 881px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: -0.32px;
+    color: #191919;
+    opacity: 1;
+}
+/* 작품보기 칸 */
+.purple {
+    position: absolute;
+    width: 288px;
+    height: 48px;
+    background: var(--메인-컬러) 0% 0% no-repeat padding-box;
+    background: #7F17E6 0% 0% no-repeat padding-box;
+    border-radius: 35px;
+    opacity: 1;
+}
+/* 작품보기 */
+.act {
+    position: absolute;
+    width: 69px;
+    height: 24px;
+    color: var(--메인-컬러);
+    text-align: left;
+    font: normal normal medium 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/* 페이지 이동 */
+.page {
+    position: absolute;
+    top: 2210px;
+    left: 897px;
+    width: 9px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans CJK KR;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+#one {
+    font: normal normal bold 16px/24px Noto Sans CJK KR;
+}
+#two {
+    left: 928px;
+}
+#three {
+    left: 957px;
+}
+#four {
+    left: 986px;
+}
+#five {
+    left: 1015px;
+}
+/* 이동칸 원 */
+.circle {
+    position: absolute;
+    top: 2208px;
+    left: 805px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    opacity: 1;
+}
+#left {
+    left: 847px;
+}
+#right {
+    left: 1044px;
+}
+#rright {
+    left: 1086px;
+}
+/* 이동 화살표 */
+.arrow {
+    position: absolute;
+    top: 2219px;
+    display: inline-block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    text-decoration: none;
+    color: transparent;  
+}
+.arrow.next1 {
+    transform: rotate(-45deg);
+}
+.arrow.next2 {
+    transform: rotate(-45deg);
+}
+.arrow.next3 {
+    transform: rotate(-45deg);
+}
+.arrow.next4 {
+    transform: rotate(135deg);
+}
+.arrow.next5 {
+    transform: rotate(135deg);
+}
+.arrow.next6 {
+    transform: rotate(135deg);
+}
