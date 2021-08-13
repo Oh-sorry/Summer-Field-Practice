@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Storymong Main</title>
+    
+	<link rel="stylesheet" type="text/css" href="./css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/header.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+	<link rel="stylesheet" type="text/css" href="./css/cs_inbound.css">
+  	
+  </head>
+  <body>
+	<!-- Navbar -->
+	<header>
+    	<div class="header_container">
+    		<div class="img_logo"><a href="/"><img src="./img/main_logo.png" /></a></div>    	
+		    <nav class="nav_container">
+		      <div class="nav_items">
+		        <ul>
+		      	  <li><a href="./web/sub">영화 시나리오</a></li>
+		          <li><a href="./web/sub">드라마 대본</a></li>
+		          <li><a href="./web/sub">웹소설</a></li>
+		          <li><a href="./web/sub">웹툰</a></li>
+		          <li><a href="/">스토리허브</a></li>
+		        </ul>	        
+		      </div>
+		    </nav>
+		    <div class="search_img"><a href="/"><img src="./img/search_icon.png" /></a></div>
+		    
+		    <button type="button" id="btn-join" data-toggle="modal" data-target="#joinModal">회원가입</button>
+		    <button type="button" id="btn-login" data-toggle="modal" data-target="#loginModal">로그인</button>
+		     
+	    </div>
+    </header>
+	<!-- /.navbar -->
+	<!-- Content -->
+	<main>
+		<p id="main_cs">고객센터</p>
+		<div class="bar" id="upbar"></div>
+		<div id="dot"></div>
+		<table style="left: 442px;">
+			<tr>
+				<td><div id="cs"><a href="cs_notice.html">공지사항</a></div></td>
+			</tr>
+			<tr>
+				<td><div id="faq"><a href="cs_faq.html">FAQ</a></div></td>
+			</tr>
+			<tr>
+				<td><div id="req"><a href="cs_inbound.html" style="color: black;">1:1문의</a></div></td>
+			</tr>
+		</table>
+		<table style="left: 442px;">
+            <tr>
+				<td><div id="req1">- 문의내역</div></td>
+			</tr>
+            <tr>
+				<td><div id="req2">- 문의하기</div></td>
+			</tr>
+        </table>
+		<table>
+			<tr>
+				<td><div class="check" id="chk1">접수항목</div></td>
+			</tr>
+			<tr>
+				<td><div class="check" id="chk2" style="top: 341px;">제목</div></td>
+			</tr>
+			<tr>
+				<td><div class="check" id="chk3" style="top: 418px;">내용</div></td>
+			</tr>
+			<tr>
+				<td><div class="check" id="chk4" style="top: 860px;">파일첨부</div></td>
+			</tr>
+		</table>
+		<div class="crossbar" id="centerbar1" ></div>
+		<div class="box" id="box1"></div>
+		<div class="box" id="box2"></div>
+		<div class="box" id="box3"></div>
+
+		<i id="arrow"></i>
+
+		<p class="text" id="box1_text">접수항목 카테고리</p>
+		<p class="text" id="box2_text" style="top: 326px;">제목을 입력해 주세요.</p>
+		<p class="text" id="box3_text" style="top: 402px;">문의 내용을 입력해 주세요. 최대 1000자까지 입력 가능해요.</p>
+
+		<div class="ja" id="box2_ja" style="right: 390px;">0/20자</div>
+		<div class="ja" id="box3_ja" style="top: 793px;">0/1000자</div>
+		
+		<div id="add"></div>
+		<p id="add_text">첨부하기</p>
+		<p id="add_text2">최대 3개까지 첨부 가능해요.</p>
+
+		<div id="g_blank"></div>
+		<p id="g_text">문의하기</p>
+		
+		<div class="bar" id="underbar" style="top: 913px;"></div>
+    </main>
+	<!-- Footer -->  
+	<footer>	
+		<div id="footer_logo">
+			<img src="./img/footer_logo.png" />
+		</div>	
+	</footer>
+  </body>
+</html>

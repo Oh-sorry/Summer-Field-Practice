@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+@font-face {
+		font-family:"Noto-Sans-CJK-KR";
+		src:url("/font/NotoSansKR-Regular.otf") format("opentype");
+	}
+@font-face {
+		font-family:"Noto-Sans-KR";
+		src:url("/font/NotoSansKR-Bold.otf") format("opentype");
+	}
+
+main {
+	margin: 0 auto;
+	width:100%;
+  	min-height: calc(100% - 310px);
+  	align-items: center;
+  	padding-top: 80px;  	
+}
+
+.top_container{
+	width:100%;
+	height: 364px;
+	margin: 0 auto;
+	position: relative;	
+}
+#top_banner{
+	width: 708px;
+	height: 364px;
+	position: absolute;	
+	border-radius: 20px;
+	opacity: 1;
+}
+
+.main_container{
+	width:1072px;
+	height: 481px;
+	margin: 0 auto;
+	position: relative;	
+}
+#feed_top{
+	width: 100%;
+	height: 89px;
+}
+#feed_circle{
+	width: 12px;
+	height: 12px;
+	top: 48px;
+	bottom: 29px;
+	position: absolute;
+	background: #7F17E6 0% 0% no-repeat padding-box;
+	border-radius: 45%;
+	opacity: 1;
+}
+#feed_title{
+	height: 30px;
+	top: 39px;
+	left: 24px;
+	bottom: 20px;
+	position: absolute;
+	font-family: Noto-Sans-CJK-KR;
+	color: #191919;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: left;
+	letter-spacing: 0px;	
+	opacity: 1;
+}
+#feed_more{
+	height: 20px;
+	top: 49px;
+	bottom: 20px;
+	right:0px;
+	position: absolute;
+	font: normal normal normal 14px/20px Noto Sans CJK KR;
+	text-align: left;
+	letter-spacing: 0px;
+	opacity: 1;	
+}
+#feed_body{
+	width: 100%;
+	height: 352px;
+}
+#feed_content{
+	width: 253px;
+	height: 352px;
+	position: absolute;
+	background: #9C9C9C 0% 0% no-repeat padding-box;
+	border-radius: 20px;
+	opacity: 1;
+}
+#book_cover{
+	width: 253px;
+	height: 352px;
+	border-radius: 20px;
+	opacity: 1;
+}
+#like_circle{
+	width: 48px;
+	height: 48px;
+	left: 193px; 
+	top: 12px;
+	position: absolute;
+	opacity: 1;
+}
+#like_none{
+	width: 20px;
+	height: 18px;
+	left: 207px; 
+	top: 28px;
+	position: absolute;
+	opacity: 1;
+}
+#star_rate{
+	width: 70px;
+	height: 14px;
+	left: 16px; 
+	top: 260px;
+	background-image: url("/img/star_active.svg");
+	background-repeat: repeat-x;
+	position: absolute;
+	opacity: 1;
+}
+.content_gradation{
+	width: 253px;
+	height: 176px;
+	top: 176px;
+	position: absolute;
+	background: transparent linear-gradient(180deg, #00000000 0%, #0000001A 26%, #000000BD 100%) 0% 0% no-repeat padding-box;
+	border-radius: 0px 0px 20px 20px;
+	opacity: 1;
+}
+.content_title{
+	width: 126px;
+	height: 32px;
+	left: 16px;
+	top: 278px;
+	position: absolute;
+	font-family: Noto-Sans-KR;
+	color: white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: left;
+	letter-spacing: 0px;	
+	opacity: 1;
+}
+#feed_bottom{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+}
+#roll_selected{
+	width: 16px;
+	height: 16px;
+	top: 23px;
+	left: 486px;
+	position: absolute;
+	background: #7F17E6 0% 0% no-repeat padding-box;
+	border-radius: 45%;
+	opacity: 1;
+}
+#roll_unselected{
+	width: 10px;
+	height: 10px;	
+	top: 27px;
+	position: absolute;
+	background: #ABABAB 0% 0% no-repeat padding-box;
+	border-radius: 45%;
+	opacity: 1;
+}
+.event_container{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	margin-top: 40px;
+	background: #4E4E4E 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.turn_feed{
+	width:1072px;
+	height: 448px;
+	margin: 0 auto;
+	position: relative;	
+}
+.turn_selected{
+	width: 344px;
+	height: 398px;
+	left: 364px;
+	position: absolute;
+	background: #BFBFBF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 30px #2727276E;
+	border-radius: 20px;
+	opacity: 1;
+}
+#turn_unselected1{
+	width: 304px;
+	height: 352px;
+	top: 112px;	
+	position: absolute;
+	background: #7E7E7E 0% 0% no-repeat padding-box;
+	border-radius: 20px;
+	opacity: 1;
+}
+#turn_unselected2{
+	width: 251px;
+	height: 292px;
+	top: 137px;	
+	position: absolute;
+	background: #5E5E5E 0% 0% no-repeat padding-box;
+	border-radius: 20px;
+	opacity: 1;
+}
+#turn_unselected3{
+	width: 206px;
+	height: 238px;
+	top: 164px;	
+	position: absolute;
+	background: #232323 0% 0% no-repeat padding-box;
+	border-radius: 20px;
+	opacity: 1;
+}
+.event_bottom{
+	width:1072px;
+	height: 550px;
+	margin: 0 auto;
+	position: relative;
+}
+.event_banner{
+	width:1072px;
+	height: 470px;
+	margin: 40px 0px;
+	position: absolute;
+	background: #4E4E4E 0% 0% no-repeat padding-box;
+	border-radius: 20px;
+	opacity: 1;
+}
+

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+		font-family:"Noto-Sans-KR";
+		src:url("/font/NotoSansKR-Regular.otf") format("opentype");
+	}
+
+header {
+  margin: 0 auto; /* header의 양쪽 여백(margin)을 동등하게 맞춤 -> 수평가운데정렬 */
+  width: 100%;
+  height: 80px;  
+  background: #fff;
+  align-items: center; /* 하위 요소들 수직 가운데정렬 */
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99;
+}
+fieldset {
+  border: none; /* 기본 border 없애기(이 코드를 지우고 기본 border를 확인해보세요) */
+}
+
+.header_container{
+	width:1072px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+.img_logo {
+  width: 162px;
+  height: 20px;
+  top: 30px;
+  position:absolute;
+  align-items: center;
+}
+.search_box {
+  width: 520px;
+  height: 50px;
+  border: 2px solid #03cf5d;
+  display: flex;
+  align-items: center;
+}
+.search_box input {
+  flex: 9; /* search-box내부에서 9만큼의 크기를 차지(비율) */
+  height: 46px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+.search_box button {
+  flex: 1; /* search-box내부에서 1만큼의 크기를 차지(비율) */
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: #03cf5d;
+  color: #ffffff;
+}
+
+/* nav */
+.nav_container {
+	width: 600px;
+	height: 40px;
+  	top: 20px;
+  	left: 182px;
+  	position:absolute;  
+}
+/*
+header > nav {
+  width: 920px;
+  height: 80px;
+  left: 182px;
+  position: absolute;
+  bottom: 0;
+}
+*/
+.nav_items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Noto-Sans-KR;  
+  font-style: normal;
+  font-weight: bold;  
+  font-size: 18px;
+}
+.keyword {
+  width: 200px;
+}
+.nav_items ul {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.nav_items ul > li {
+  display: inline-block;
+  margin-left: 20px;
+  align-items: center;
+}
+.nav_items ul > li > a {
+  color: #202020;
+  text-decoration: none;
+  cursor: pointer;
+}
+.search_img{
+	width: 30px;
+	height: 30px;
+	top: 25px;
+	left: 850px;
+	position: absolute;
+}
+.notice_img{
+	width: 28px;
+	height: 30px;
+	top: 25px;
+	left: 920px;
+	position: absolute;
+}
+.profile_area{
+	width: 48px;
+	height: 48px;
+	top: 16px;
+	left: 990px;
+	position: relative;
+	border: 2px solid #7F17E6;
+	opacity: 1;
+	border-radius: 24px;
+}
+.profile_img{
+	width: 24px;
+	height: 24px;
+	top: 10px;
+	left: 10px;
+	position: absolute;	
+}
+#btn-join {
+		position: absolute;
+		width: 100px;
+		height: 40px;
+		left: 900px;
+		top: 20px;
+		background: #7F17E6;
+		border-radius: 20px;
+		font: normal normal normal 16px/24px Noto-Sans-KR;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		text-align: center;
+		opacity: 1;
+		border: none;
+	}
+	
+#btn-login {
+		position: absolute;
+		width: 84px;
+		height: 40px;
+		left: 1010px;
+		top: 20px;
+		background: #FFFFFF;
+		border: 2px solid #7F17E6;
+		border-radius: 20px;
+		font: normal normal bold 16px/24px Noto-Sans-KR;
+		letter-spacing: 0px;
+		color: #7F17E6;	
+		text-align: center;
+		opacity: 1;
+	}

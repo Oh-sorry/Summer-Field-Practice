@@ -1,0 +1,317 @@
+main {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2813px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 타이틀 & 우상단 배너 */
+.title {
+    position: absolute;
+    width: 442px;
+    height: 40px;
+    text-align: left;
+    font: normal normal bold 28px/40px Noto Sans KR;
+    letter-spacing: -0.84px;
+    color: #191919;
+    opacity: 1;
+}
+/* 도움말 */
+.ask {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/help.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 우상단 배너 */
+.menu {
+    width: 97px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    position: absolute;
+}
+/* 우상단 배너 화살표 */
+.angle {
+    position: absolute;
+    top: 152px;
+    width: 12px;
+    height: 6px;
+    background: transparent url('img/underangle.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 위-아래 구분 선 */
+.bar {
+    position: absolute;
+    width: 1072px;
+    height: 0px;
+    border: 2px solid #AEAEAE;
+    opacity: 1;
+}
+/* 칸 */
+.block {
+    position: absolute;
+    top: 214px;
+    left: 424px;
+    width: 526px;
+    height: 469px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    opacity: 1;
+}
+/* 작품 메인 이미지 */
+.greyblock {
+    position: absolute;
+    width: 146px;
+    height: 204px;
+    background: #9C9C9C 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+/* 카테고리 - 장르 */
+.category {
+    position: absolute;
+    width: 119px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 컨텐츠 제목란 */
+.content {
+    position: absolute;
+    width: 158px;
+    height: 35px;
+    text-align: left;
+    font: normal normal bold 24px/35px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 작가명 */
+.author {
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    color: var(--unnamed-color-7b7b7b);
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #7B7B7B;
+    opacity: 1;
+}
+/* 별점 활성화 */
+.star_active {
+    position: absolute;
+    opacity: 1;
+    width: 120px;
+    height: 14px;
+}
+/* 별점 비활성화 */
+.star_none {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 평점 */
+.grade {
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 조회수, 좋아요, 댓글 이미지 */
+.img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+}
+.img.img1 {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 black);
+    filter: opacity(.5) drop-shadow(0 0 0 black);
+}
+/* 조회수, 좋아요, 댓글 수 */
+.comment {
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 칸 중간 레이어 바 */
+.mid_bar {
+    position: absolute;
+    width: 164px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-ececec);
+    border: 2px solid #ECECEC;
+    opacity: 1;
+} 
+/* 추천 지수 */
+.recommend {
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 추천 지표 */
+.attainment {
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    color: var(--메인-컬러);
+    text-align: left;
+    font: normal normal bold 24px/35px Noto Sans KR;
+    letter-spacing: -0.72px;
+    opacity: 1;
+}
+
+.att_com {
+    position: absolute;
+    width: 35px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 추천 지수 좋아요, 로고 이미지 */
+.initial{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    opacity: 1;
+}
+/* 작품보기 & 협업하기 칸 */
+.purple {
+    position: absolute;
+    width: 225px;
+    height: 48px;
+    border: 2px solid var(--메인-컬러);
+    border: 2px solid #7F17E6;
+    border-radius: 35px;
+    opacity: 1;
+}
+.purple.box2 {
+    background: var(--메인-컬러) 0% 0% no-repeat padding-box;
+    background: #7F17E6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 작품보기 & 협업하기 */
+.act {
+    position: absolute;
+    width: 69px;
+    height: 24px;
+    color: var(--메인-컬러);
+    text-align: left;
+    font: normal normal medium 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #7F17E6;
+    opacity: 1;
+}
+/* 페이지 이동 */
+.page {
+    position: absolute;
+    top: 2705px;
+    left: 897px;
+    width: 9px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans CJK KR;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+#one {
+    font: normal normal bold 16px/24px Noto Sans CJK KR;
+}
+#two {
+    left: 928px;
+}
+#three {
+    left: 957px;
+}
+#four {
+    left: 986px;
+}
+#five {
+    left: 1015px;
+}
+/* 이동칸 원 */
+.circle {
+    position: absolute;
+    top: 2703px;
+    left: 805px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    opacity: 1;
+}
+#left {
+    left: 847px;
+}
+#right {
+    left: 1044px;
+}
+#rright {
+    left: 1086px;
+}
+/* 이동 화살표 */
+.arrow {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    text-decoration: none;
+    color: transparent;
+    top: 2713px
+}
+.arrow.next1 {
+    transform: rotate(-45deg);
+}
+.arrow.next2 {
+    transform: rotate(-45deg);
+}
+.arrow.next3 {
+    transform: rotate(-45deg);
+}
+.arrow.next4 {
+    transform: rotate(135deg);
+}
+.arrow.next5 {
+    transform: rotate(135deg);
+}
+.arrow.next6 {
+    transform: rotate(135deg);
+}

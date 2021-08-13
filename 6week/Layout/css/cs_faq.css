@@ -1,0 +1,302 @@
+main {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1393px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#main_cs {
+    position: absolute;
+    top: 120px;
+    left: 424px;
+    width: 138px;
+    height: 46px;
+    text-align: left;
+    font: normal normal bold 32px/46px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+#search {
+    position: absolute;
+    top: 150px;
+    left: 1243px;
+    width: 253px;
+    height: 44px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 2px solid var(--unnamed-color-b1b1b1);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #B1B1B1;
+    border-radius: 10px;
+    opacity: 1;
+}
+#search_text {
+    position: absolute;
+    top: 145px;
+    left: 1259px;
+    width: 59px;
+    height: 24px;
+    color: var(--unnamed-color-9a9a9a);
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #9A9A9A;
+    opacity: 1;
+}
+#grey {
+    position: absolute;
+    top: 162px;
+    left: 1460px;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/search_grey.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.bar {
+    position: absolute;
+    top: 210px;
+    left: 424px;
+    width: 1072px;
+    height: 0px;
+    border: 2px solid #AEAEAE;
+    opacity: 1;
+}
+#dot {
+    position: absolute;
+    top: 321px;
+    left: 424px;
+    width: 10px;
+    height: 10px;
+    background: var(--메인-컬러) 0% 0% no-repeat padding-box;
+    background: #7F17E6 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+#cs {
+    position: absolute;
+    top: 245px;
+    left: 442px;
+    width: 66px;
+    height: 26px;
+    color: var(--unnamed-color-9a9a9a);
+    text-align: left;
+    font: normal normal medium 18px/26px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #9A9A9A;
+    opacity: 1;
+}
+#faq {
+    position: absolute;
+    top: 311px;
+    left: 442px;
+    width: 35px;
+    height: 26px;
+    text-align: left;
+    font: normal normal bold 18px/26px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+#req {
+    position: absolute;
+    top: 377px;
+    left: 442px;
+    width: 59px;
+    height: 26px;
+    color: var(--unnamed-color-9a9a9a);
+    text-align: left;
+    font: normal normal medium 18px/26px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #9A9A9A;
+    opacity: 1;
+}
+#g_blank {
+    position: absolute;
+    top: 302px;
+    left: 697px;
+    width: 799px;
+    height: 93px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#symbol {
+    position: absolute;
+    top: 321px;
+    left: 705px;
+    width: 55px;
+    height: 55px;
+    background: transparent url('img/스토리몽_심볼.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.angle {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1.5px solid #9a9a9a;
+    border-left: 1.5px solid #9a9a9a;
+    text-decoration: none;
+    color: transparent;
+    left: 1476px;
+}
+.angle.next1 {
+    transform: rotate(45deg);
+}
+.angle.next2 {
+    transform: rotate(225deg);
+}
+.angle.next3 {
+    transform: rotate(225deg);
+}
+.angle.next4 {
+    transform: rotate(225deg);
+}
+.angle.next5 {
+    transform: rotate(225deg);
+}
+.angle.next6 {
+    transform: rotate(225deg);
+}
+.angle.next7 {
+    transform: rotate(225deg);
+}
+.angle.next8 {
+    transform: rotate(225deg);
+}
+.angle.next9 {
+    transform: rotate(225deg);
+}
+.angle.next10 {
+    transform: rotate(225deg);
+}
+.g_circle {
+    position: absolute;
+    top: 236px;
+    left: 712px;
+    width: 42px;
+    height: 42px;
+    border: 3px solid var(--unnamed-color-d9d9d9);
+    border: 3px solid #D9D9D9;
+    border-radius: 20px;
+    opacity: 1;
+}
+.g_img {
+    position: absolute;
+    top: 246px;
+    left: 723px;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/cs_group.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.cs_title {
+    position: absolute;
+    top: 230px;
+    left: 778px;
+    width: 1113px;
+    height: 24px;
+    color: var(--unnamed-color-9a9a9a);
+    text-align: left;
+    font: normal normal medium 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #9A9A9A;
+    opacity: 1;
+}
+.answer {
+    position: absolute;
+    top: 329px;
+    left: 778px;
+    width: 618px;
+    height: 40px;
+    text-align: left;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;}
+.cs_text {
+    position: absolute;
+    top: 258px;
+    left: 778px;
+    width: 204px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+#te1 {
+    font: normal normal bold 16px/24px Noto Sans KR;
+}
+.crossbar {
+    position: absolute;
+    top: 302px;
+    left: 697px;
+    width: 799px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-ececec);
+    border: 2px solid #ECECEC;
+    opacity: 1;
+}
+.page {
+    position: absolute;
+    top: 1245px;
+    left: 897px;
+    width: 9px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans CJK KR;
+    letter-spacing: 0px;
+    color: #5A5A5A;
+    opacity: 1;
+}
+#one {
+    font: normal normal bold 16px/24px Noto Sans CJK KR;
+}
+.circle {
+    position: absolute;
+    top: 1243px;
+    left: 805px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    opacity: 1;
+}
+.arrow {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: transparent;
+    text-indent: -9999px;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    text-decoration: none;
+    color: transparent;
+    top: 1253px;
+}
+.arrow.next1 {
+    transform: rotate(-45deg);
+}
+.arrow.next2 {
+    transform: rotate(-45deg);
+}
+.arrow.next3 {
+    transform: rotate(-45deg);
+}
+.arrow.next4 {
+    transform: rotate(135deg);
+}
+.arrow.next5 {
+    transform: rotate(135deg);
+}
+.arrow.next6 {
+    transform: rotate(135deg);
+}

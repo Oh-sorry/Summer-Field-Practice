@@ -1,0 +1,291 @@
+main {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 113px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 타이틀 & 우상단 배너 */
+.title {
+    position: absolute;
+    width: 442px;
+    height: 40px;
+    text-align: left;
+    font: normal normal bold 28px/40px Noto Sans KR;
+    letter-spacing: -0.84px;
+    color: #191919;
+    opacity: 1;
+}
+/* 도움말 */
+.ask {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: transparent url('img/help.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 우상단 배너 */
+.menu {
+    width: 97px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+    position: absolute;
+}
+/* 우상단 배너 화살표 */
+.angle {
+    position: absolute;
+    top: 152px;
+    width: 12px;
+    height: 6px;
+    background: transparent url('img/underangle.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 위-아래 구분 선 */
+.bar {
+    position: absolute;
+    width: 1072px;
+    height: 0px;
+    border: 2px solid #AEAEAE;
+    opacity: 1;
+}
+/* 컨텐츠 칸 박스 */
+.box {
+    position: absolute;
+    width: 1072px;
+    height: 249px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 6px 15px #5E5E5E33;
+    border-radius: 20px;
+    opacity: 1;
+}
+/* 컨텐츠 순서 */
+.order {
+    position: absolute;
+    left: 474px;
+    width: 16px;
+    height: 40px;
+    text-align: left;
+    font: normal normal bold 28px/40px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 컨텐츠 순서 변동 표시 */
+.tri {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 컨텐츠 순서 변동 폭 */
+.order_rank {
+    position: absolute;
+    width: 6px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 작품 메인 이미지 */
+.greyblock {
+    position: absolute;
+    left: 539px;
+    width: 138px;
+    height: 193px;
+    background: #9C9C9C 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+/* 컨텐츠 제목란 */
+.content {
+    position: absolute;
+    left: 709px;
+    width: 146px;
+    height: 32px;
+    text-align: left;
+    font: normal normal bold 22px/32px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 작가명 */
+.author {
+    position: absolute;
+    left: 709px;
+    width: 82px;
+    height: 20px;
+    color: var(--unnamed-color-9a9a9a);
+    text-align: left;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #9A9A9A;
+    opacity: 1;
+}
+/* 별점 활성화 */
+.star_active {
+    position: absolute;
+    opacity: 1;
+    width: 120px;
+    height: 14px;
+}
+/* 별점 비활성화 */
+.star_none {
+    position: absolute;
+    left: 787px;
+    width: 14px;
+    height: 14px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* 평점 */
+.grade {
+    position: absolute;
+    left: 808px;
+    width: 19px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 조회수, 좋아요, 댓글 이미지 */
+.img {
+    position: absolute;
+    left: 842px;
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+}
+.img.img2 {
+    left: 921px;
+}
+/* 조회수, 좋아요, 댓글 수 */
+.comment {
+    position: absolute;
+    top: 317px;
+    left: 866px;
+    width: 35px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+.comment.like_comment {
+    left: 945px;
+}
+/* 작품 소개글 란 */
+.introduce {
+    position: absolute;
+    left: 709px;
+    width: 326px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 추천 지수 */
+.recommend {
+    position: absolute;
+    left: 1061px;
+    width: 130px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 16px/24px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 추천 지수 그래프 */
+.blank {
+    position: absolute;
+    left: 1061px;
+    width: 352px;
+    height: 48px;
+    background: var(--unnamed-color-d9d9d9) 0% 0% no-repeat padding-box;
+    background: #D9D9D9 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+/* 추천 지수 통계 */
+.static {
+    position: absolute;
+    left: 1181px;
+    width: 87px;
+    height: 26px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 18px/26px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 3;
+}
+.static.static2 {
+    left: 1169px;
+    width: 108px;
+}
+/* 추천 지수 좋아요, 로고 이미지 */
+.initial{
+    position: absolute;
+    left: 1276px;
+    width: 17px;
+    height: 17px;
+    opacity: 1;
+    z-index: 3;
+}
+.initial.img2 {
+    left: 1275px;
+}
+/* 추천 지수 비율 */
+.percent {
+    position: absolute;
+    left: 1425px;
+    width: 37px;
+    height: 26px;
+    text-align: left;
+    font: normal normal medium 18px/26px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+}
+/* 페이지 이동란 */
+.page {
+    position: absolute;
+    top: 5330px;
+    width: 116px;
+    height: 44px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 2px solid var(--unnamed-color-9a9a9a);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #9A9A9A;
+    border-radius: 22px;
+    opacity: 1;
+}
+/* 페이지 이동란 내용 */
+.page_comment {
+    position: absolute;
+    top: 5342px;
+    width: 68px;
+    height: 26px;
+    color: var(--unnamed-color-9a9a9a);
+    text-align: left;
+    font: normal normal medium 18px/26px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #9A9A9A;
+    opacity: 1;
+}

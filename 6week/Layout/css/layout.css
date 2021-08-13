@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+		font-family:"Noto-Sans-KR";
+		src:url("/font/NotoSansKR-Regular.otf") format("opentype");
+		}
+body {
+	min-width: 1072px;
+  	margin: 0;
+  	font-family: Noto-Sans-KR;
+  	}
+a {
+  text-decoration: none;
+  color: #888;
+  }
+
+* {
+  box-sizing: border-box; /* 길이 계산을 편하게 하기위함.*/
+}
+/* 재사용 클래스 */
+.color_storymong {
+  color: #7F17E6;
+}
+.text_bold-13 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
